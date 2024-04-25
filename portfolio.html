@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+    <script src="https://unpkg.com/scrollreveal"></script>
+</head>
+<body>
+    
+    <!-- Header Section -->
+   <header class="header">
+    <a href="#" class="logo">My Portfolio</a>
+    <!-- <i class="fa-solid fa-bars" id="menu-icon"></i> -->
+    <i class='bx bx-menu' id="menu-icon"></i>
+    <nav class="navbar">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" class="active">About</a>
+        <a href="#skills" class="active">Skills</a>
+        <a href="#project" class="active">Project</a>
+        <a href="#contact" class="active">Contact</a>
+    </nav>
+   </header>
+
+   <!-- Home Section -->
+   <section class="home" id="home">
+    <div class="home-content">
+        <h3>Hii, I'm </h3>
+        <h1>Dixit Kanjariya</h1>
+        <h3><span>Front-End Developer</span></h3>
+        <p>"Creative and detail-oriented aspiring Web developer seeking an opportunity to apply
+            my Web Designing skils and contribute to a colaborative team environment. Would
+            like to lead team and eager to get opportunities in Team Work and Present Unique
+            Ideas."</p>
+        
+        <div class="social-media">
+            <a href="https://www.facebook.com/login" target="_blank"><i class="bx bxl-facebook"></i></a>
+            <a href="https://www.linkedin.com/in/dixit-kanjariya-39b9422b8" target="_blank"><i class="bx bxl-linkedin"></i></a>
+            <a href="https://github.com/login?return_to=https%3A%2F%2Fgithub.com%2Ftopics%2Flogin" target="_blank"><i class="bx bxl-github"></i></a>
+            <a href="https://twitter.com/i/flow/login" target="_blank"><i class="bx bxl-twitter"></i></a>
+        </div>
+
+        <!-- <a href="#" class="btn">Download My CV</a> -->
+        <a href="Resume.pdf" target="_blank"><button class="cvbtn">
+            <span class="text">Download CV</span>
+        </button></a>
+    </div>
+
+    <div class="home-img">
+        <img src="home-img.png" alt="">
+    </div>
+   </section>
+
+   <!-- About Section -->
+
+   <section class="about" id="about">
+    <div class="about-img">
+        <img src="about-img.jpg" alt="">
+    </div>
+
+    <div class="about-content">
+        <h2 class="heading">ABOUT <span>ME</span></h2>
+        <h3>Frontend Developer</h3><br>
+        <p>As Dixit Kanjariya, I am a driven web developer and dedicated bachelor's student of engineering. With a passion for crafting intuitive websites and a knack for problem-solving, I thrive in collaborative environments where I can push the boundaries of what's possible. Continuously learning and staying updated with the latest web development trends, my goal is to deliver exceptional results that exceed expectations.</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+   </section>
+
+   <!-- Skill Section -->
+
+   <section class="skills" id="skills">
+    <h2 class="heading">My <span>Skills</span></h2>
+    <div class="skills-container">
+
+    <div class="skills-box">
+        <i class="bx bx-code-alt"></i>
+        <h3>Web Developer</h3>
+        <p>Web developers are responsible for creating websites that are not only visually appealing but highly functional and secure. </p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    
+    <div class="skills-box">
+        <i class="bx bx-edit-alt"></i>
+        <h3>Creative Designer</h3>
+        <p>Creative designers develop brochures, banners, business cards, social media ads, product packaging, and brand identity assets.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>
+    
+    <div class="skills-box">
+        <i class="bx bx-mobile-alt"></i>
+        <h3>Management</h3>
+        <p>Management skills can be defined as certain attributes or abilities that an executive should possess in order to fulfill specific tasks in an organization.</p>
+        <a href="#" class="btn">Read More</a>
+    </div>  
+    </div>
+
+   </section>
+
+   <!-- Project Section -->
+
+   <section class="project" id="project">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+    
+    <div class="project-container">
+        <div class="project-box">
+            <img src="proj_1.jpg" style="width: 100%;">
+            <div class="project-layer">
+                <h3>Smart Saloon</h3>
+                <p>Website for Booking appointment and get Treatment suggestion</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="proj_2.jpg" style="width: 100%;">
+            <div class="project-layer">
+                <h3>Cursor Movement by Hand Gesture</h3>
+                <p>Program used for Moving Cursor just by using Gestures</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+        <div class="project-box">
+            <img src="proj_3.1.jpg" style="width: 100%;">
+            <div class="project-layer">
+                <h3>Resturant Management System</h3>
+                <p>A Website for Managing Orders and Bill Payment for Resturant</p>
+                <a href="#"><i class="bx bx-link-external"></i></a>
+            </div>
+        </div>
+
+    </div>
+    </section>
+
+    <!-- Contect Section -->
+
+    <section class="contact" id="contact">
+        <h2 class="heading"> Contact <span>Me</span></h2>
+        <form action="#">
+            <div class="input-box">
+                <input type="text" placeholder="Full Name">
+                <input type="email" placeholder="Email Address">
+            </div>
+
+            <div class="input-box">
+                <input type="number" placeholder="Mobile Number">
+                <input type="text" placeholder="Email Subject">
+            </div>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+            <input type="Submit" value="Send Message" class="btn">
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; 2024 by Dixit Kanjariya | All Right Reserved</p>
+        </div>
+
+        <div class="footer-icon">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+    <!-- Main JS -->
+    <script src="main.js"></script>
+</body>
+</html>
